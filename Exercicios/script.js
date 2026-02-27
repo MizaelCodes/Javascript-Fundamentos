@@ -13,5 +13,6 @@ function ValorViagem() {
 
     let QuilometrosPorLitro = DistanciaPercorrida / ConsumoMedio;
     let ValorTotal = QuilometrosPorLitro * ValorGasolina
-    alert('O Valor total da viagem é de $' + ValorTotal)
+
+    ValorTotal = document.getElementById('resultado').innerText = ValorTotal
 }
